@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PasswordHub</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 class="title">PasswordHub</h1>
+    <div class="container">
+      <div class="options">
+        <label for="include-special">Include Special Characters</label>
+        <input type="checkbox" id="include-special">
+        <br>
+        <label for="include-uppercase">Include Uppercase Letters</label>
+        <input type="checkbox" id="include-uppercase">
+        <br>
+        <label for="include-numbers">Include Numbers</label>
+        <input type="checkbox" id="include-numbers">
+        <br>
+      </div>
+      <label for="password-length">Password Length</label>
+      <input type="number" id="password-length" min="8" max="20" value="8">
+      <button type="button" onclick="generatePassword()">Generate Password</button>
+      <input type="text" id="generated-password" readonly>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<body>
+    <div class="sidebar">
+      <h2>Info</h2>
+      <button id="mode-toggle-btn">Toggle Dark/Light Mode</button>
+      <p>Here is some information about the password generator.</p>
+    </div>
+    <div class="main-content">
+      <!-- other HTML elements for your password generator -->
+    </div>
+  </body>
+
+  <aside class="sidebar">
+    <!-- sidebar content -->
+  </aside>
+  
+  

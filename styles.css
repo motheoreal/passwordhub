@@ -1,0 +1,71 @@
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .sidebar {
+    width: 200px; /* or any width you prefer */
+    height: calc(100% - 50px); /* height will be 100% of the parent element minus the height of the title */
+    position: fixed; /* to make it appear as a sidebar */
+    left: 0; /* to make it appear on the right side */
+    top: 50px; /* to make it align with the top of the title */
+    background-color: #f1f1f131; /* or any color you prefer */
+    padding: 20px; /* to add some space around the content */
+  }
+  
+
+/* dark mode styles */
+.dark-mode {
+    background-color: #14141C;
+    color: #f1f1f1;
+  }
+  
+  /* light mode styles */
+  .light-mode {
+    background-color: #f1f1f1;
+    color: #14141C;
+  }
+  
+  
